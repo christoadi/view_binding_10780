@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding?.root)
         val adapter = MainAdapter(TaskList.taskList)
         binding?.taskRv?.adapter = adapter
-
     }
 
     override fun onDestroy() {
